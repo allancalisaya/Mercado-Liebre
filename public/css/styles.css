@@ -1,0 +1,109 @@
+
+header{
+    font-family: 'Nunito', sans-serif;
+    font-size: 12px;
+    background-color:#ffd000;
+    max-height: 100%;
+    max-width: 100%;
+    margin: auto;
+}
+.busqueda {
+    display:flex;
+    height: 25px;
+    width: 60px;
+    padding-left: 20px;
+}
+.titulo0{
+margin: 20px;
+font-size: 18px;
+}
+.opciones{
+font-size: 15px;
+}
+.burger-menu {
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    background-color: blue ;
+    border: 1px solid blue; /* Agrega un borde de cuadro azul */
+    border-radius: 4px; /* Añade esquinas redondeadas al borde */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 31px;
+    margin: auto;
+}
+
+.img-banner{
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+    box-sizing: border-box;
+}
+.tituloUno {
+    color: black;
+    text-align: center;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+}
+.tituloDos{
+    color: black;
+    text-align: center;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 15px;
+}
+
+.imagenes{
+    width: 250px;
+    height: 250px;
+}  
+.producto{
+    display: inline-block;
+    border: 4px solid #ebebeb ; /* Ancho y color del borde */
+    padding: 40px; /* Espacio dentro del recuadro */
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 35px #212121 ; /* Agrega una sombra */
+    max-width: 100%;
+    align-items: center;
+    margin: 50px;
+}
+.fa-shipping-fast{
+    color: #09b509;
+    animation: spin 5s linear infinite; /* Agrega una animación de giro */
+}
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.precios{
+    font-size:20px ;
+}
+.descuentos {
+    font-size: 18px;
+    color: #16c516;
+}
+.descripciones {
+    font-size: 18px;
+}
+
+main{
+    text-align: center ;
+}
+
+footer{
+    text-align: center;
+    background-color: white;
+    padding: 15px;
+    border: solid 1px black;
+    box-sizing: border-box;
+}
+footer i.fas{
+    color:#004cff ;
+    font-size: 30px;
+}
