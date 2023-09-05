@@ -1,13 +1,12 @@
-.logo-ml{
-    width: 200px;
 
-}
 header{
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
     background-color: #EAC926 ;
 }
-
+.logo-ml{
+    width: 200px;
+}
 .titulo0{
 margin: 20px;
 font-size: 15px;
@@ -81,6 +80,8 @@ padding: 0 ;
     box-sizing:border-box;
     text-align: center
 }
+
+
 .tituloUno {
     color: black;
     font-size: 1.6rem;
@@ -103,6 +104,7 @@ padding: 0 ;
     width: 200px;
     height: 200px;
 }  
+
 .producto{
     display: flex;
     border: 0px solid #ffffff ; /* Ancho y color del borde */
@@ -114,6 +116,7 @@ padding: 0 ;
     align-items: center;
     transition: transform 450ms;
 }
+
 .producto:hover{
 transform: scale(0.91);
 }
@@ -141,31 +144,28 @@ transform: scale(0.91);
     font-size: 18px;
 }
 .formulario{
-    border: solid 1px #000000;
-    width: 40%;
-    height: auto;
+    border: solid 1px #ffffff;
     padding-left: 0px;
     padding-right: 20px;
     margin:20px;
     box-sizing: border-box; 
     border-radius: 10px;
     text-align: center;
-    margin-left: 33%;
-    margin-right: 33%;
+    margin-left:13%;
+    margin-right: 13%;
 }
 .formulario label{
-    font-size: 20px;
-    background-color: cadetblue;
+    font-size: 17px;
+    background-color: #007bff;
     color: white;
-    padding: 8px;
+    padding: 10px;
     border-radius: 5px;
-
-
 }
 .formulario input{
     border-radius: 5px;
-    border: solid 1px rgb(34, 34, 34);
-    padding: 0%;
+    border: solid 1px rgb(0, 0, 0);
+    padding: 6px;
+    margin: 20px;
 }
 .form-opciones{
     display: block;
@@ -187,7 +187,7 @@ transform: scale(0.91);
 }
 .botonIniciar{
     color: white;
-    background-color: rgba(94, 8, 116, 0.74);
+    background-color:#007bff;
     width: 80px;
     height: 40px;
     font-size: 16px;
@@ -195,12 +195,51 @@ transform: scale(0.91);
     transition: all 800ms;
     position: relative;
     right: 1;
-    border: white
+    border: white;
 }
 .botonIniciar:hover{
     border-radius: 40%;
-    background-color: #033f70;
+    background-color: #25ad21d8;
     transition: all 1s
+}
+
+#registro-form{
+    color: rgb(145, 145, 145);
+    display:block;
+    max-width: 550px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family:'Roboto', sans-serif;
+    font-size: 13px;
+}
+.registro-form h2{
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(158, 158, 158)
+}
+.registro-form label{
+    display: block;
+    margin-bottom: 5px;
+    margin: 10px;
+    text-align: left;
+}
+.registro-form input{
+    width: 100%; 
+    padding: 10px; 
+    margin-bottom: 15px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px;
+}
+.registro-form button{
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+
 }
 footer{
     display: block;
@@ -212,9 +251,10 @@ footer{
     border: white;
 }
 footer i.fas{
-    color:#003cc7de ;
+    color:#007bff; ;
     font-size: 30px;
 }
+
 
 @media (min-width:330px){
     .inicio{
