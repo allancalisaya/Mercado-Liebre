@@ -14,6 +14,7 @@ app.use(express.static(publicPath));
 
 app.use(express.static(path.join(__dirname, "public")));
 
+app.set("views", path.join(__dirname, "/views"));
 app.get('/', (req, res) => {
     res.sendFile(path.resolve(__dirname, './views/fome.html'));})
 

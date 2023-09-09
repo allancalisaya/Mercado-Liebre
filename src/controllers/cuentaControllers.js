@@ -6,8 +6,9 @@ const controllers = {
     formulario: (req, res) => {
         return res.render ('ingresar')
         },
+
     logo: (req , res) => {
-        return res.render ('logo')
+        return res.render ('logo.ejs')
     }    
 }
 console.log('completado')
